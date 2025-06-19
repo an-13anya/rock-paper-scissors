@@ -114,7 +114,7 @@
          { score.tie+=1;}
         
             update();
-             document.querySelector('.rps-mv').innerHTML=(`You <img src="images/${playerMove}-emoji.png" > <img src="images/${computerMove}-emoji.png">  computer`)
+             document.querySelector('.rps-mv').innerHTML=(`You <img src="${playerMove}-emoji.png" > <img src="${computerMove}-emoji.png">  computer`)
              document.querySelector('.res').innerHTML=(` ${res} `)
             return computerMove;
    }
